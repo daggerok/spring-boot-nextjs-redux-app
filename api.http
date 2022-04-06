@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/user/first-name
+Accept: application/json
+
+###
+GET http://localhost:8080/api/user/last-name
+Accept: application/json
+
+###
+GET http://localhost:8080
+
+###

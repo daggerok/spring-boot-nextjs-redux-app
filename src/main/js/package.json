@@ -1,0 +1,25 @@
+{
+  "name": "spring-boot-nextjs-redux-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preexport": "npm run build",
+    "export": "next export -o ../resources/static",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "7.2.8",
+    "redux": "4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  },
+  "presets": ["next/babel"]
+}
